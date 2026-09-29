@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/MY/GIT/cci-software/Embedded Firmware/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

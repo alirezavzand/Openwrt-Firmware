@@ -1,0 +1,10 @@
+^C:\MY\GIT\CCI-SOFTWARE\EMBEDDED FIRMWARE\BUILD\CMAKEFILES\DB87B71B0CD047440221630CA3F15F71\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/MY/GIT/cci-software/Embedded Firmware" "-BC:/MY/GIT/cci-software/Embedded Firmware/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/MY/GIT/cci-software/Embedded Firmware/build/cci_huawei_modbus_reader.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

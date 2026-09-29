@@ -1,0 +1,3 @@
+C:\MY\GIT\cci-software\Embedded Firmware\app\main.c;C:\MY\GIT\cci-software\Embedded Firmware\build\cci_huawei_reader.dir\Release\main.obj
+C:\MY\GIT\cci-software\Embedded Firmware\drivers\huawei_sun2000.c;C:\MY\GIT\cci-software\Embedded Firmware\build\cci_huawei_reader.dir\Release\huawei_sun2000.obj
+C:\MY\GIT\cci-software\Embedded Firmware\src\modbus_transport_win32.c;C:\MY\GIT\cci-software\Embedded Firmware\build\cci_huawei_reader.dir\Release\modbus_transport_win32.obj

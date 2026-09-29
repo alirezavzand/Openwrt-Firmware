@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MY\GIT\cci-software\Embedded Firmware\app\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MY\GIT\cci-software\Embedded Firmware\drivers\huawei_sun2000.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MY\GIT\cci-software\Embedded Firmware\src\modbus_transport_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MY\GIT\cci-software\Embedded Firmware\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{969A3EC7-8762-378A-BABF-0646C1BFAAD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

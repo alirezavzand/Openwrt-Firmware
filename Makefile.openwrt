@@ -1,0 +1,16 @@
+CC ?= gcc
+CFLAGS ?= -O2 -Wall -Wextra -Wpedantic -std=c11
+CPPFLAGS += -Iinclude -Idrivers
+
+SOURCES = \
+	app/main.c \
+	drivers/huawei_sun2000.c \
+	src/modbus_transport_posix.c
+
+TARGET = cci_huawei_reader
+
+all:
+	$(CC) $(CPPFLAGS) $(CFLAGS) $(SOURCES) -o $(TARGET)
+
+clean:
+	rm -f $(TARGET)

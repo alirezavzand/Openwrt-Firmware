@@ -1,0 +1,3 @@
+C:/MY/GIT/cci-software/Embedded Firmware/build/CMakeFiles/cci_huawei_reader.dir
+C:/MY/GIT/cci-software/Embedded Firmware/build/CMakeFiles/ALL_BUILD.dir
+C:/MY/GIT/cci-software/Embedded Firmware/build/CMakeFiles/ZERO_CHECK.dir

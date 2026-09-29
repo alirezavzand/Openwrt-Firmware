@@ -1,0 +1,10 @@
+^C:\MY\GIT\CCI-SOFTWARE\EMBEDDED FIRMWARE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/MY/GIT/cci-software/Embedded Firmware" "-BC:/MY/GIT/cci-software/Embedded Firmware/build" --check-stamp-file "C:/MY/GIT/cci-software/Embedded Firmware/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
